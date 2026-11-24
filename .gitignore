@@ -1,0 +1,22 @@
+# Linux kernel and module build outputs
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+Module.symvers
+modules.order
+.tmp_versions/
+
+# QEMU/build output and local logs
+build/
+*.qcow2
+*.img
+*.dtb
+*.log
+
+# Local editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
